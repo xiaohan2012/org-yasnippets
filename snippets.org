@@ -1,0 +1,176 @@
+#+TITLE: Snippets Collection
+#+AUTHOR: org-sync-snippets
+
+* latex-mode
+
+** center
+
+#+BEGIN_SRC snippet :tangle {SNIPPETS-DIR}/latex-mode/center
+  # -*- mode: snippet -*-
+  # name: center
+  # key: ct
+  # --
+  
+  \begin{center}
+  $1
+  \end{center}
+  
+#+END_SRC
+
+** align
+
+#+BEGIN_SRC snippet :tangle {SNIPPETS-DIR}/latex-mode/align
+  # -*- mode: snippet -*-
+  # name: align
+  # key: ali
+  # --
+  \begin{align*}
+  $1
+  \end{align*}
+  
+#+END_SRC
+
+** display-math
+
+#+BEGIN_SRC snippet :tangle {SNIPPETS-DIR}/latex-mode/display-math.yas
+  # -*- mode: snippet -*-
+  # name: display-math
+  # key: dm
+  # --
+  \[
+  $1
+  \]
+  
+#+END_SRC
+
+** includegraphics
+
+#+BEGIN_SRC snippet :tangle {SNIPPETS-DIR}/latex-mode/includegraphics.yas
+  # -*- mode: snippet -*-
+  # name: includegraphics
+  # key: inc
+  # --
+  \includegraphics[width=0.8\textwidth]{images/$1}
+#+END_SRC
+
+** includegraphics
+
+#+BEGIN_SRC snippet :tangle {SNIPPETS-DIR}/latex-mode/includegraphics.yas~
+  # -*- mode: snippet -*-
+  # name: includegraphics
+  # key: inc
+  # --
+  
+#+END_SRC
+
+** inline-math
+
+#+BEGIN_SRC snippet :tangle {SNIPPETS-DIR}/latex-mode/inline-math.yas
+  # -*- mode: snippet -*-
+  # name: inline-math
+  # key: im
+  # --
+  $$1$
+  
+#+END_SRC
+
+** newcommand-math
+
+#+BEGIN_SRC snippet :tangle {SNIPPETS-DIR}/latex-mode/newcommand-math.yas
+  # -*- mode: snippet -*-
+  # name: newcommand-math
+  # key: newcm
+  # --
+  \newcommand{\\$1}{\ensuremath{$2}\xspace}
+  
+#+END_SRC
+
+** newcommand
+
+#+BEGIN_SRC snippet :tangle {SNIPPETS-DIR}/latex-mode/newcommand.yas
+  # -*- mode: snippet -*-
+  # name: newcommand
+  # key: newc
+  # --
+  \newcommand{\\$1}{$2}
+  
+#+END_SRC
+
+** rightarrow
+
+#+BEGIN_SRC snippet :tangle {SNIPPETS-DIR}/latex-mode/rightarrow.yas
+  # -*- mode: snippet -*-
+  # name: rightarrow
+  # key: ra
+  # --
+  $\rightarrow$
+  
+#+END_SRC
+
+* python-mode
+
+** import-networkx
+
+#+BEGIN_SRC snippet :tangle {SNIPPETS-DIR}/python-mode/import-networkx.yas
+  # -*- mode: snippet -*-
+  # name: import-networkx 
+  # key: nx
+  # --
+  import networkx as nx
+  
+#+END_SRC
+
+** import-pandas
+
+#+BEGIN_SRC snippet :tangle {SNIPPETS-DIR}/python-mode/import-pandas.yas
+  # -*- mode: snippet -*-
+  # name: import-pandas
+  # key: pd
+  # --
+  import pandas as pd
+  
+#+END_SRC
+
+** pearson
+
+#+BEGIN_SRC snippet :tangle {SNIPPETS-DIR}/python-mode/pearson.yas
+  # -*- mode: snippet -*-
+  # name: pearson
+  # key: pearson
+  # --
+  from scipy.stats import pearsonr
+  
+#+END_SRC
+
+** plt
+
+#+BEGIN_SRC snippet :tangle {SNIPPETS-DIR}/python-mode/plt.yas
+  # -*- mode: snippet -*-
+  # name: plt
+  # key: plt
+  # --
+  from matplotlib import pyplot as plt
+  
+#+END_SRC
+
+** sp
+
+#+BEGIN_SRC snippet :tangle {SNIPPETS-DIR}/python-mode/sp.yas
+  # -*- mode: snippet -*-
+  # name: sp
+  # key: sp
+  # --
+  from scipy import sparse as sp
+  
+#+END_SRC
+
+** true
+
+#+BEGIN_SRC snippet :tangle {SNIPPETS-DIR}/python-mode/true
+  # -*- mode: snippet -*-
+  # name: True
+  # key: t
+  # --
+  True
+#+END_SRC
+
